@@ -1,3 +1,165 @@
+<style>
+  
+.lp_desktop .lp-window-root>.lp_maximized_large {
+  width: 100% !important;
+  left: 0px !important;
+  right: 0px !important;
+  top: 20px !important; 
+}
+
+.lpc_hero-image-area.lpc_hero-image-area_maximized.lpc_desktop {
+  display: none !important;
+}
+#lpChat > div.lp_maximized.lpmx.lpc_window.lpc_window_maximized.lpc_desktop.lp_floating.lp_maximized_large > div.lp_header.lpc_maximized-header.lpc_desktop
+{
+  display: none !important;
+}
+
+.lp_transcript_divider {
+  display: none !important;
+}
+
+.lp_chat_line_wrapper_auto {
+  display: none !important;
+}
+
+#lp_date_line_Today
+{
+  display: none !important;
+}
+#lp_line_1 > div.lp_chat_line.lpc_message.lpc_message_system.lpc_desktop > div
+{
+  display: none !important;
+}
+#lp_line_1 > div.lp_time.lp_time_bottom.lpc_message-area__timestamp.lpc_message-area__timestamp_system.lpc_desktop
+{
+  display: none !important;
+}
+#LP_TranscriptViewController_1 > div.lpc_transcript_region.lpc_desktop > div > div:nth-child(5) > div
+{
+  display: none !important
+}
+div.lp_time.lp_time_bottom.lpc_message-area__timestamp.lpc_message-area__timestamp_visitor.lpc_desktop 
+{
+  display: none !important
+}
+div.lp_time.lp_time_bottom.lpc_message-area__timestamp.lpc_message-area__timestamp_agent.lpc_message-area__timestamp_avatar-hidden.lpc_desktop
+{
+  display: none !important
+}
+.lp_time_side:hover {
+  background-color: red !important;
+}
+.lp_underline
+{
+  display: none !important
+}
+.lpc_message_visitor {
+  background-color: #451400 !important;
+  border-radius: 10px !important;
+  width: 90% !important;
+  border-color: #451400 !important;
+  max-width: 90% !important;
+  margin-right: 5% !important;
+}
+.lpc_message__text_visitor 
+{
+  color: white !important;
+}
+.lp_chat_line_wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 5px !important;
+  pointer-events:none !important;
+}
+.lpc_message-area__indicator {
+  display: none !important;
+}
+.lp_system {
+  display: none !important;
+}
+
+.lpc_message_agent {
+  background-color: #ffffff !important;
+  border-radius: 10px !important;
+  width: 90% !important;
+  border-color: rgb(83,76,76) !important;
+  max-width: 90% !important;
+  margin-left: 5% !important;
+}
+
+.lpc_message__text_agent
+{
+  color: rgb(83,76,76) !important;
+}
+.lp-window-root>.lpmx {
+  box-shadow: none !important;
+}
+.lp_emoji_button {
+  display: none !important;
+}
+
+.lp_bottom_area {
+  background-color: rgb(83,76,76)	 !important;
+  border-radius: 10px !important;
+  width: 88% !important;
+  margin-left: 6% !important;
+}
+.lpview_form_textarea {
+  color: white !important;
+}
+.lp_location_bottom {
+  border-top: none !important;
+  background-color: transparent !important;
+}
+div.lpc_message:hover {
+  display: none !important;
+}
+.lp_paper_plane_button {
+  right: -31px !important;
+}
+.chips-wrapper {
+  margin-left: 5% !important;
+
+}
+.lp_agent_is_typing {
+  display: none !important;
+}
+
+.lp_sender {
+  display: none !important;
+}
+.lp_skeleton-window-body {
+  display: none !important;
+}
+.lpc_composer__send-button-asset {
+  color: rgb(83,76,76) !important;
+
+}
+</style>
+
+<!-- BEGIN LivePerson Monitor. -->
+<script type="text/javascript">window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'61834034'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;</script>
+<!-- END LivePerson Monitor. -->
+
+<script>
+  //bind to button has already displayed event
+lpTag.events.bind("LP_OFFERS", "OFFER_IMPRESSION", function(data, eventInfo){
+
+var elements = document.getElementsByClassName("LPMcontainer");
+
+if (elements.length > 0) {
+    elements[0].click();
+}
+
+}
+
+);
+</script>
+<h1 style="text-align: center; color: teal">Test Page</h1>
+<div id="LP_DIV_1678822746526"></div>
+
+/*
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,3 +180,4 @@
         <div id="LP_DIV_1678822746526"></div>
     </body>
 </html>
+*/
